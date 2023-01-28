@@ -16,18 +16,21 @@
   </head>
   <body>
     <div class="enter">
-      <input
-        type="search"
-        placeholder="Enter your location here"
-        autofocus="on"
-        autocomplite="off"
-        id="city-input"
-        class="form-control shadow-sm"
-      />
+      <form id="search-form">
+        <input
+          type="search"
+          placeholder="Enter your location here"
+          autofocus="on"
+          autocomplite="off"
+          id="city-input"
+          class="form-control shadow-sm"
+        />
+      </form>
+      <button id="current-location-button">current location</button>
     </div>
-    <h1>Florence</h1>
-    <h2>SUN.16 OCT 2022</h2>
-
+    <h1 id="city">Florence</h1>
+    <h2 id="date">SUN.16 OCT 2022</h2>
+    <p id="description"></p>
     <div class="container1">
       <div class="row">
         <span class="temperature" id="temperature">23 ☀️</span>
@@ -36,9 +39,9 @@
           <a href="#" id="fahrenheit-link">℉</a>
         </span>
           <ul class="extra">
-            <li>Precipitation:1%</li>
-            <li>Humidity:64%</li>
-            <li>Wind:5km/h</li>
+            <li>Precipitation:<span id="">1</span>%</li>
+            <li>Humidity:<span id="humidity">6</span>%</li>
+            <li>Wind:<span id="wind">5</span>km/h</li>
           </ul>
         </div>
       </div>
@@ -88,6 +91,6 @@
         <div class="col">16</div>
       </div>
     </div>
-    <script src="src/index.js"></script>
+    <script src="src/script.js">  </script>
   </body>
 </html>
