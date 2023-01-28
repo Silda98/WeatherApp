@@ -1,0 +1,21 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #556f8f;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: -22px;
+    color: #42a5f5;
+}
+
+.enter {
+    text-align: center;
+}
+
+.container1 {
+    margin-left: 600px;
+}
